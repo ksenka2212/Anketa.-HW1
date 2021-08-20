@@ -4,7 +4,7 @@
 
  var age = prompt('Введите ваш возраст в годах','20');
  var age = parseFloat(age);
-
+ var ageP = 'Result';
  if(age>=65) { 
     ageP="да";
 }
